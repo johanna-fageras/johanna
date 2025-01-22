@@ -2,7 +2,7 @@
   "blogName": "Johannas Blogg",
   "description": "En enkel blogg med vardagsbetraktelser.",
   "name": "Johanna Fagerås",
-  "email": "johanna@johfag.com",
+  "email": "johanna@johfag.se",
   "phone": "+46 76 065 69 42",
   "location": "Göteborg, SE",
   "occupation": "Sjuksköterska",
@@ -13,6 +13,6 @@
     "twitter": "https://x.com/Johanna66786519",
     "tiktok": "https://www.tiktok.com/@johannafageras"
   },
-  "url": "https://johfag.com",
+  "url": "https://johfag.se",
   "copyrightName": "Johanna Fagerås"
 }
