@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Thin.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Thin.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Thin.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 100;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ThinItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ThinItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ThinItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 200;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLight.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLight.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLight.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 200;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLightItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLightItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraLightItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Light.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Light.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Light.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-LightItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-LightItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-LightItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Regular.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Regular.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-RegularItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-RegularItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-RegularItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Medium.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Medium.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Medium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 500;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-MediumItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-MediumItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-MediumItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBold.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBold.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 600;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBoldItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-SemiBoldItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Bold.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Bold.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Bold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BoldItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BoldItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BoldItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBold.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBold.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 800;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBoldItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBoldItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-ExtraBoldItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Black.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Black.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-Black.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Power Pop";
+  font-style: italic;
+  font-weight: 900;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BlackItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BlackItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/jf/PowerPop-BlackItalic.ttf")
+      format("truetype");
+}

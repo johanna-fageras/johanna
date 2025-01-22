@@ -1,18 +1,18 @@
 {
-  "blogName": "Johanna F.",
-  "description": "A personal blog about anything and everything.",
+  "blogName": "Johannas Blogg",
+  "description": "En enkel blogg med vardagsbetraktelser.",
   "name": "Johanna Fagerås",
-  "email": "johannaelisabethfageras@pm.me",
+  "email": "johanna@johfag.com",
   "phone": "+46 76 065 69 42",
-  "location": "Gothenburg, Sweden",
-  "occupation": "Registered Nurse",
-  "shortBio": "I'm Johanna, a 35 y/o RN by day and coder, blogger, typographer and icon artist by night. Cat lover, plant parent, crochet enthusiast, horse whisperer, and DIY fashionista extraordinaire always.",
+  "location": "Göteborg, SE",
+  "occupation": "Sjuksköterska",
+  "shortBio": "Jag är Johanna, en 35-årig sjuksköterska dagtid och programmerare, bloggare, typografi- och ikonkonstnär på natten. Kattälskare, växtförälder, virkentusiast och hästviskare – alltid.",
   "social": {
     "github": "https://github.com/johanna-fageras",
     "facebook": "https://www.facebook.com/johfa9578",
     "twitter": "https://x.com/Johanna66786519",
     "tiktok": "https://www.tiktok.com/@johannafageras"
   },
-  "url": "https://johanna-fageras.github.io",
+  "url": "https://johfag.com",
   "copyrightName": "Johanna Fagerås"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "johannaf",
+  "name": "johanna",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,11 +7,12 @@
     "build": "eleventy"
   },
   "keywords": [
-    "blog"
+    "blog",
+    "eleventy"
   ],
   "author": "Johanna Fagerås",
   "license": "MIT",
-  "description": "My personal blog built with eleventy.",
+  "description": "My blog built with eleventy.",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "sass": "^1.83.1"

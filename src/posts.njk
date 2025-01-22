@@ -1,16 +1,21 @@
 ---
 layout: base
 title: Posts
+pagination:
+  data: collections.posts
+  size: 10
+  alias: posts
+permalink: "{% if pagination.pageNumber > 0 %}/posts/{{ pagination.pageNumber + 1 }}/{% else %}/posts/{% endif %}"
 ---
 
 <div class="archive-header">
-    <h1>Post Archive</h1>
-    <p>Welcome to the archive — a collection of everything I’ve shared on the blog so far. From random musings to dopey thoughts and everything in between, this is where you can explore past posts and rediscover the moments that make life fun, weird, and memorable. Happy browsing!</p>
+    <h1>Arkivet</h1>
+    <p>Arkivet samlar alla mina blogginlägg om tankar och saker som intresserar mig – stort som smått. Utforska mina reflektioner och idéer!</p>
 </div>
 
 <section class="archive-posts">
     <ol class="posts-list full-archive">
-        {%- for post in collections.posts -%}
+        {%- for post in posts -%}
         <li class="post-item">
             <article class="archive-post-card">
                 <div class="post-meta">
@@ -28,7 +33,7 @@ title: Posts
                     {% endif %}
                 </div>
                 <h2 class="post-title">
-                    <span class="post-number">{{ (collections.posts.length - loop.index0) | padNumber }}</span>
+                    <span class="post-number">{{ collections.posts.length - ((pagination.pageNumber * pagination.size) + loop.index0) | padNumber }}</span>
                     <a href="{{ post.url }}">{{ post.data.title }}</a>
                 </h2>
                 {% if post.data.description %}
@@ -38,4 +43,33 @@ title: Posts
         </li>
         {%- endfor -%}
     </ol>
+
+    {% if pagination.pages.length > 1 %}
+    <nav class="pagination" aria-label="Pagination">
+        <div class="pagination-controls">
+            {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}" class="pagination-prev">← Föregående</a>
+            {% else %}
+            <span class="pagination-prev disabled">← Föregående</span>
+            {% endif %}
+
+            <div class="pagination-numbers">
+                {% for pageEntry in pagination.pages %}
+                {% set pageNumber = loop.index %}
+                {% if page.url == pagination.hrefs[loop.index0] %}
+                <span class="pagination-number current" aria-current="page">{{ pageNumber }}</span>
+                {% else %}
+                <a href="{{ pagination.hrefs[loop.index0] }}" class="pagination-number">{{ pageNumber }}</a>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}" class="pagination-next">Nästa →</a>
+            {% else %}
+            <span class="pagination-next disabled">Nästa →</span>
+            {% endif %}
+        </div>
+    </nav>
+    {% endif %}
 </section>

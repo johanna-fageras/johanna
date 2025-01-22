@@ -7,7 +7,7 @@ layout: base
         {% if subtitle %}
         <h2>{{ subtitle }}</h2>
         {% endif %}
-        
+        <span>Av {{ author }} · <time datetime="{{ page.date | dateToISO }}">{{ page.date | dateFilter }}</time></span>
         {% if featuredImage %}
         <div class="featured-image">
             <img src="{{ featuredImage }}" alt="{{ featuredImageAlt or title }}">
@@ -15,12 +15,11 @@ layout: base
         {% endif %}
         
         <div class="post-meta">
-            <time datetime="{{ page.date | dateToISO }}">{{ page.date | dateFilter }}</time>
             {% if tags %}
             <div class="post-tags">
                 {% for tag in tags %}
                     {% if tag != "post" %}
-                    <a href="/tags/{{ tag | slug }}/" class="tag">{{ tag }}</a>
+                    <a href="/tags/{{ tag | slug }}/" class="tag tag-{{ tag | slug }}">{{ tag }}</a>
                     {% endif %}
                 {% endfor %}
             </div>
@@ -47,7 +46,7 @@ layout: base
         <div class="author">
             <img src="/assets/images/profile-2.png" alt="Author" class="author-image">
             <div class="author-bio">
-                <span class="author-name">Written by {{ site.name }}</span>
+                <span class="author-name">Av {{ site.name }}</span>
                 <p class="author-description">{{ site.shortBio }}</p>
             </div>
         </div>

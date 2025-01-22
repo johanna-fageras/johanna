@@ -1,3 +1,3 @@
-# My Personal Blog
+# My Blog
 
-A minimalist, typography-focused blog built with Eleventy.
+A personal blog build with eleventy.

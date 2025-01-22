@@ -9,13 +9,6 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.date - a.date); // Sort in reverse chronological order
   });
 
-  // Add projects collection
-  eleventyConfig.addCollection("projects", function (collection) {
-    return collection.getFilteredByGlob("src/projects/*.md").sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
-
   // Create tag pages
   eleventyConfig.addCollection("tagList", function (collection) {
     const tagSet = new Set();
