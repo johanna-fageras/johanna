@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Thin.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Thin.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Thin.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ThinItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ThinItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ThinItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLight.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLight.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLight.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLightItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLightItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraLightItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Light.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Light.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Light.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Lightitalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Lightitalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Lightitalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Regular.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Regular.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-RegularItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-RegularItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-RegularItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Medium.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Medium.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Medium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-MediumItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-MediumItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-MediumItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Bold.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Bold.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Bold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BoldItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BoldItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BoldItalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBold.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBold.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBolditalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBolditalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-ExtraBolditalic.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Black.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Black.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-Black.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "PP Editorial New";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BlackItalic.woff2")
+      format("woff2"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BlackItalic.woff")
+      format("woff"),
+    url("https://webfonts.fra1.cdn.digitaloceanspaces.com/pangrampangram/EditorialNew-BlackItalic.ttf")
+      format("truetype");
+}
